@@ -115,14 +115,11 @@ color: #404bbf;
 
 .hero {
         background-color: #2e2f42;
-         padding: 188px 0;
+        padding: 188px 0;
         display: flex;
         align-items: center;
-         justify-content: center;
-        height:100vh;
-        
-
-}
+        justify-content: center;
+        }
 
 .hero-title {
         
@@ -166,11 +163,8 @@ color: #404bbf;
 
 .services{
         padding: 120px 0;
-                /* Внутрішні відступи зверху і знизу */
-         margin: 0 156px;
-                /* Правильний відступ від країв для контенту */
-        
 }
+
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -251,8 +245,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 16px;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
 }
 
 .team-text {
