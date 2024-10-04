@@ -233,8 +233,7 @@ img {
         display: flex;
         gap: 24px;
 }
-
-.services-icons-item {
+ .services-container{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -244,7 +243,8 @@ img {
         border-radius: 4px;
         border: 1px solid #8e8f99;
         margin-bottom: 8px;
-}
+ }
+
 
 .services-list {
         display: flex;
@@ -270,6 +270,9 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
+
+
 .team-list-section {
         background-color: #f4f4fd;
         padding: 120px 0;
@@ -300,7 +303,9 @@ img {
 }
 
 .team-cards {
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+         0px 1px 1px rgba(46, 47, 66, 0.16), 
+         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-info {
@@ -313,7 +318,6 @@ img {
         font-size: 20px;
         line-height: 1.2;
         color: #2e2f42;
-        margin-top: 32px;
         margin-bottom: 8px;
 }
 
@@ -321,14 +325,14 @@ img {
         font-weight: 400;
         font-size: 16px;
         color: #434455;
+        margin-bottom: 8px;
 }
 
 .team-icons-list {
         display: flex;
         justify-content: center;
         gap: 24px;
-        margin-top: 8px;
-        margin-bottom: 32px;
+        
         
 }
 
@@ -442,14 +446,16 @@ img {
         background-color: #2e2f42;
         padding: 100px 0;
 }
-.footer-wrapper {
+
+ .footer-content{
         display: flex;
         align-items: baseline;
-       
-        
-}
+ }
 .container-logo-p{
+       
+
         margin-right: 120px;
+        margin-left: 156px;
 
 }
 
