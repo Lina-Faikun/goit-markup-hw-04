@@ -452,15 +452,16 @@ img {
 
  .footer-content{
         display: flex;
+        width: 1158px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
         align-items: baseline;
-        margin-right: 120px;
+
  }
 .footer-logo-text{
-
         margin-right: 120px;
-        margin-left: 156px;
-
-}
+        }
 
 .footer-logo {
         display: inline-block;
